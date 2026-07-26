@@ -31,8 +31,3 @@ the output would be like below:
  381:             1             16  java.lang.String$CaseInsensitiveComparator (java.base@21.0.11)
 ```
 The 9575 (java.lang.String) is the number of instances of java.lang.String class.
-
-## Run it on local:
-```
-./gradlew spotlessApply clean build run
-```
