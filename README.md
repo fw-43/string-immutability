@@ -33,7 +33,7 @@ the output would be like below:
  170:             1            120  [[Ljava.lang.String; (java.base@21.0.11)
  381:             1             16  java.lang.String$CaseInsensitiveComparator (java.base@21.0.11)
 ```
-The 9575 (java.lang.String) is the number of instances of java.lang.String class.
+The 9575 (`java.lang.String`) is the number of instances of `java.lang.String` class.
 
 ### Step 4:
-You can play around with String declaration and assignments in line 7-12, where you can get a different number of String instances. Notice that line 8 and 11 is exactly the same string literal, so it does not increase the number of string instances in the String pool.
+You can play around with String declaration and assignments in line 7-12 to get a different number of String instances. Notice that line 8 and 11 is exactly the same string literal, so it does not increase the number of string instances in the String pool.
