@@ -3,18 +3,21 @@
 ## Description
 This is just to showcase String immutability in Java.
 
-1. You can run this simple Java app from terminal using the usual:
+### Step 1:
+You can run this simple Java app from terminal using the usual:
 ```
 javac StringImmutability.java
 java StringImmutability
 ```
 
-2. Then open another terminal and run:
+### Step 2:
+Then open another terminal and run:
 ```
 ps -ef | grep 'java StringImmutability'
 ```
 
-3. Then from the output, find a line like below:
+### Step 3:
+Then from the output, find a line like below:
 ```
 USER         10823    6590  0 11:56 pts/2    00:00:00 java StringImmutability
 ```
